@@ -1,0 +1,16 @@
+{
+  "name": "multicoin-offline",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "gmuresan",
+  "license": "MIT",
+  "dependencies": {
+    "jsonic": "^0.3.0",
+    "litecore": "^4.1.10",
+    "shelljs": "^0.7.8"
+  },
+  "scripts": {
+    "start": "babel-watch ./index.js"
+  },
+  "devDependencies": {}
+}

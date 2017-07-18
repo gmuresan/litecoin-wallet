@@ -1,0 +1,7 @@
+.data/
+*.swp
+node_modules/
+out.txt
+package-lock.json
+yarn.lock
+
