@@ -7,6 +7,7 @@ var fs = require('fs');
 var resolve = require('path').resolve;
 
 function sendTransaction(serializedTx, cb) {
+  console.log("litecore call sendTransaction " + serializedTx);
   node.services.bitcoind.sendTransaction(serializedTx, (err, txId) => {
     if(err) {
       console.log(err);
