@@ -1,3 +1,8 @@
+Installation:
+
+  npm install
+  npm run setup
+
 SAMPLE ADDRESSES:
 
   <PrivateKey: ed1de16a561c50eabd1fa352c98f85a047f83c46304efb17e2ae21bdf1fc4eea, network: testnet>

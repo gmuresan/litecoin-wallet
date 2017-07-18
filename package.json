@@ -6,11 +6,11 @@
   "license": "MIT",
   "dependencies": {
     "jsonic": "^0.3.0",
-    "litecore": "^4.1.10",
-    "shelljs": "^0.7.8"
+    "litecore": "^4.1.10"
   },
   "scripts": {
-    "start": "babel-watch ./index.js"
+    "start": "babel-watch ./index.js",
+    "setup": "./node_modules/litecore/bin/litecore create .data"
   },
   "devDependencies": {}
 }

@@ -12,6 +12,8 @@ const amount = process.argv[4];
 const toAddress = process.argv[5];
 const outfile = process.argv[6];
 
+console.log("********");
+console.log("May take a few minutes to sync the blockchain the first time");
 const generateTransaction = execSync(`node online.js ${fromAddress} ${amount} ${toAddress} ${outfile}`);
 console.log(generateTransaction.toString());
 
